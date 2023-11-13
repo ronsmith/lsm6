@@ -16,3 +16,6 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/ronsmith/lsm6"
 "Bug Tracker" = "https://github.com/ronsmith/lsm6/issues"
+
+[tool.setuptools]
+py-modules = ["lsm6", "i2chelper"]
