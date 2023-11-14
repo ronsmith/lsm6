@@ -91,6 +91,9 @@ class IMUData:
     def __init__(self, tup):
         self.gy_x, self.gy_y, self.gy_z, self.xl_x, self.xl_y, self.xl_z = tup
 
+    def __repr__(self):
+        return f"IMUData(gy_x:{self.gy_x}, gy_y:{self.gy_y}, gy_z:{self.gy_z}, xl_x:{self.xl_x}, xl_y:{self.xl_y}, xl_z:{self.xl_z})"
+
 
 class LSM6:
 
